@@ -622,3 +622,23 @@ footer p {
     padding-bottom: 32px;
   }
 }
+.footer-meta {
+  margin-top: 14px;
+
+  font-size: 0.82rem;
+  font-weight: 500;
+
+  color: rgba(255,255,255,.55);
+
+  text-align: center;
+}
+
+.footer-meta a {
+  color: #ff8d73;
+  font-weight: 700;
+  transition: .3s ease;
+}
+
+.footer-meta a:hover {
+  color: #ffd166;
+}
