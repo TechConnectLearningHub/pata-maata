@@ -233,13 +233,20 @@ a {
   justify-content: center;
   align-items: center;
   padding: 18px 42px;
-  border-radius: 24px;
+  border-radius: 999px;
   font-size: 1.35rem;
   font-weight: 900;
-  background: linear-gradient(135deg, var(--pink), var(--coral), #ffad3d);
-  box-shadow:
-    0 20px 55px rgba(233,75,158,.55),
-    0 0 24px rgba(255,141,115,.25);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,92,184,.25),
+      rgba(255,141,115,.25)
+    );
+
+  border: 1px solid rgba(255,255,255,.18);
+
+  backdrop-filter: blur(20px);
 }
 
 /* LOGO VISUAL */
@@ -603,4 +610,52 @@ footer {
   .note-4 {
     right: 20px;
   }
+}
+.karaoke strong {
+  color: #ff8d73;
+}
+
+.jamming strong {
+  color: #ffd166;
+}
+
+.songs strong {
+  color: #ff5cb8;
+}
+
+.community strong {
+  color: #ff9fb7;
+}
+.primary-btn span {
+  background: linear-gradient(
+    135deg,
+    #ff5cb8,
+    #ff8d73,
+    #ffd166
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dm-white {
+  color: #ffffff;
+}
+
+.dm-pink {
+  background: linear-gradient(
+    135deg,
+    #ff5cb8,
+    #ff8d73
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
